@@ -103,7 +103,7 @@ Implement embedded widget in your desired external site to check results.
 
 ## Additional information 
 
-You may find detailed step-by-step guide how to turn Vue.js 3 application to embedded widget in [our blog on Substack]() (don't forget to subscribe!)
+You may find detailed step-by-step guide how to turn Vue.js 3 application to embedded widget in [our blog on Substack](https://labrodev.substack.com/p/turn-vuejs-30-spa-to-embedded-widget?r=2zv4d4&utm_campaign=post&utm_medium=web) (don't forget to subscribe!)
 
 Enjoy and thanks for your attention! 
 
