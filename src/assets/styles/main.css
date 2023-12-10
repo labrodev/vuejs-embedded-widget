@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+#app {
+    font-size: 16px;
+    @apply font-sans;
+    margin: 0 auto;
+    line-height: 1.15;
+    padding: 2em;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+  
