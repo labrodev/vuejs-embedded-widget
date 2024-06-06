@@ -24,5 +24,17 @@ export default defineConfig({
         assetFileNames: '[name].[ext]'    // for other assets
       },
     },
+  },
+  // Configuration for development server and preview (will you use another entry pointe dev.js to handle this as normal SPA application )
+  server: {
+    open: true,
+    port: 5137,
+    entry: fileURLToPath(new URL('./src/dev.js', import.meta.url))
+  },
+  // Ensure preview mode is correctly handled
+  preview: {
+    open: true,
+    port: 5137,
+    entry: fileURLToPath(new URL('./src/dev.js', import.meta.url))
   }
 })
