@@ -80,6 +80,29 @@ server {
 
 Make sure that virtual host works and yourhost/widget.js is reachable. 
 
+## Development and preview mode
+
+If you need to check the application in preview or development mode, it needs to be considered as a traditional Vue.js single-page application.
+
+The problem is that we cannot use the same entry point (main.js) for both the embedded-widget mode and the standard Vue.js application.
+
+That's why another entry point (dev.js) and another root component (Dev.vue) were added.
+
+In vite.config.js, the defined entry point for "server" and "preview" is dev.js instead of main.js.
+
+This way, you can enjoy the same behavior and functionality with both solutions. Use "preview" and "development" mode for testing and development, and build it as a compiled embedded widget script for external usage when needed.
+
+To run it in development mode, simply use the following command:
+
+```bash
+npx vite
+```
+or 
+
+```bash
+npm run dev
+```
+
 ## Usage
 
 Implement embedded widget in your desired external site to check results. 
